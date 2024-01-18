@@ -1624,7 +1624,7 @@ document.addEventListener('DOMContentLoaded', () => {
           alert(app.say)
         }
         saveToLocal(app.link)
-        window.location.href = '/w'
+        window.location.href = '/go.html'
         return false
       }
     } else if (app.blank) {
